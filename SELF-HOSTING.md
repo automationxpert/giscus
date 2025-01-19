@@ -32,7 +32,7 @@ the web app. You can use this guide as a reference.
   - Feel free to name it whatever you want (e.g. `myblog-comments`). I would
     appreciate it if you indicate that it is a self-hosted version of
     [giscus][giscus] (with the link) in the description.
-  - Use `https://giscus.app` as the homepage URL unless you also accept any
+  - Use `https://giscus-new.vercel.app` as the homepage URL unless you also accept any
     users to use your service on their repositories.
 
 ### Identifying and authorizing users
@@ -231,7 +231,7 @@ encounter any problems, [create a new issue][new-issue].
 
 [app-doc]: https://docs.github.com/apps/building-integrations
 [create-app]: https://github.com/settings/apps/new
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [token-validity-period]: https://github.com/giscus/giscus/blob/main/pages/api/oauth/authorized.ts#L6
 [supabase]: https://supabase.io
 [vercel]: https://vercel.com

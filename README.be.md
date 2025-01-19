@@ -20,7 +20,7 @@
 
 Каб камэнтаваць, наведвальнікі мусяць аўтарызаваць [giscus app][giscus-app] для [публікацыі ад іх імя][authorization] з дапамогаю GіtHub OAuth. Акрамя таго, наведвальнікі могуць непасрэдна камэнтаваць у GіtHub Абмеркаваньнях. Вы можаце мадэраваць камэнтары на GіtHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

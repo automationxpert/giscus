@@ -49,7 +49,7 @@ Example `giscus.json`:
 
 ```json
 {
-  "origins": ["https://giscus.app"]
+  "origins": ["https://giscus-new.vercel.app"]
 }
 ```
 
@@ -66,7 +66,7 @@ Example `giscus.json`:
 
 ```json
 {
-  "origins": ["https://giscus.app"],
+  "origins": ["https://giscus-new.vercel.app"],
   "originsRegex": ["http://localhost:[0-9]+"]
 }
 ```
@@ -190,7 +190,7 @@ page based on giscus' state. For example:
 
 ```ts
 function handleMessage(event: MessageEvent) {
-  if (event.origin !== 'https://giscus.app') return;
+  if (event.origin !== 'https://giscus-new.vercel.app') return;
   if (!(typeof event.data === 'object' && event.data.giscus)) return;
 
   const giscusData = event.data.giscus;
@@ -268,7 +268,7 @@ For example:
 function sendMessage<T>(message: T) {
   const iframe = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
   if (!iframe) return;
-  iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus-new.vercel.app');
 }
 ```
 

@@ -2,7 +2,7 @@
 
 The [giscus organization][organization] (our organization) is an independent
 organization and is not part of any company. Our organization operates the
-https://giscus.app website (our website). This privacy policy will explain how
+https://giscus-new.vercel.app website (our website). This privacy policy will explain how
 our organization uses your personal data when you use our website.
 
 Topics:

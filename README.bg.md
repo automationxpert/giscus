@@ -20,7 +20,7 @@
 
 За да коментират, посетителите трябва да разрешат на [приложението giscus][giscus-app] да [публикува от тяхно име][authorization], използвайки GitHub OAuth процеса. Алтернативно, посетителите могат да коментират директно в GitHub дискусията. Можете да модерирате коментарите в GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

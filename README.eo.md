@@ -20,7 +20,7 @@ Kiam giscus ŝargas, la [GitHub-a Diskutoj-serĉa API][search-api] estas uzata p
 
 Por komenti, vizitantoj devas rajtigi la [giscus-an aplikaĵon][giscus-app] por [afiŝi anstataŭ sin][authorization] per la GitHub-a OAuth-fluo. Alternative, vizitantoj povas komenti rekte en la GitHub-a Diskuto. Vi povas moderi la komentojn en GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

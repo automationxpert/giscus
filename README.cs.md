@@ -20,7 +20,7 @@ Při načtení nástroje giscus se použije [GitHub Discussions search API][sear
 
 Aby mohli návštěvníci komentovat, musí autorizovat [aplikaci giscus][giscus-app], aby [psala jejich jménem][authorization] pomocí GitHub OAuth. Případně mohou návštěvníci komentovat přímo v GitHub Discussion. Komentáře můžete moderovat na GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

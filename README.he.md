@@ -21,7 +21,7 @@
 
 בכדי להגיב, מבקרים חייבים לאשר את [אפליקציית giscus][giscus-app] ל[פרסם בשמם][authorization] באמצעות זרימת OAuth של GitHub. לחילופין, מבקרים יוכלי להגיב ישירות בדיון של GitHub. אתה יכול לנהל את התגובות ב-GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

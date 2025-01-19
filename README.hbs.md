@@ -20,7 +20,7 @@ Kada se giscus učita, [API za pretragu GitHub Diskusija][search-api] se koristi
 
 Da bi komentarisali, korisnici moraju dati autoritet [giscus aplikaciji][giscus-app] da [objavljuje u njihovo ime][authorization] koristeći GitHub OAuth tok. Alternativno, čitaoci mogu komentarisati na GitHub Diskusiji direktno. Vlasnik diskusije može biti moderator iste.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

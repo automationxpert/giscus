@@ -20,7 +20,7 @@
 
 Για να μπορέσουν να σχολιάσουν, οι επισκέπτες θα πρέπει να εξουσιοδοτήσουν την [εφαρμογή giscus][giscus-app] ώστε να [αναρτά περιεχόμενο γι αυτούς][authorization] χρησιμοποιώντας τη ροή OAuth του GitHub. Εναλλακτικά, οι επισκέπτες μπορούν να σχολιάσουν απ'ευθείας στις Συζητήσεις του GitHub. Μπορείτε να διαχειριστείτε τα σχόλια στο GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

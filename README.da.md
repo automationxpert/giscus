@@ -20,7 +20,7 @@ Når Giscus indlæses, bruges [GitHub-diskussionssøgnings-API'et][search-api] t
 
 For at kommentere skal besøgende autorisere [giscus app][giscus-app] til at [poste på deres vegne][authorization] ved hjælp af GitHub OAuth-flow. Alternativt kan besøgende kommentere direkte på GitHub-diskussionen. Du kan moderere kommentarerne på GitHub.
 
-[giscus]: https://giscus.app
+[giscus]: https://giscus-new.vercel.app
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus
