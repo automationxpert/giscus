@@ -1,4 +1,4 @@
-# [giscus][giscus]
+# [giscus-new][giscus]
 
 A comments system powered by [GitHub Discussions][discussions]. Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances][utterances].
 
