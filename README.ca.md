@@ -23,11 +23,11 @@ Per deixar un comentari, els visitants han d'autoritzar [l'aplicació de giscus]
 [giscus]: https://giscus-new.vercel.app/ca
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
-[repo]: https://github.com/giscus/giscus
-[advanced-usage]: https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md
-[creating-custom-themes]: https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-theme
-[multiple-languages]: https://github.com/giscus/giscus/blob/main/CONTRIBUTING.md#adding-localizations
-[self-hosting]: https://github.com/giscus/giscus/blob/main/SELF-HOSTING.md
+[repo]: https://github.com/automationxpert/giscus
+[advanced-usage]: https://github.com/automationxpert/giscus/blob/main/ADVANCED-USAGE.md
+[creating-custom-themes]: https://github.com/automationxpert/giscus/blob/main/ADVANCED-USAGE.md#data-theme
+[multiple-languages]: https://github.com/automationxpert/giscus/blob/main/CONTRIBUTING.md#adding-localizations
+[self-hosting]: https://github.com/automationxpert/giscus/blob/main/SELF-HOSTING.md
 [search-api]: https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions#search
 [giscus-app]: https://github.com/apps/giscus-new
 [authorization]: https://docs.github.com/en/developers/apps/identifying-and-authorizing-users-for-github-apps
@@ -58,11 +58,11 @@ Si has utilitzat anteriorment altres sistemes que fan servir GitHub Issues (com 
 
 Veure [CONTRIBUTING.md][contributing]
 
-[giscus-component]: https://github.com/giscus/giscus-component
-[repo]: https://github.com/giscus/giscus
+[giscus-component]: https://github.com/automationxpert/giscus-component
+[repo]: https://github.com/automationxpert/giscus
 [giscus-topic]: https://github.com/topics/giscus
 [topic-howto]: https://docs.github.com/en/github/administering-a-repository/classifying-your-repository-with-topics
-[advanced-usage]: https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md
+[advanced-usage]: https://github.com/automationxpert/giscus/blob/main/ADVANCED-USAGE.md
 [utterances]: https://github.com/utterance/utterances
 [gitalk]: https://github.com/gitalk/gitalk
 [convert]: https://docs.github.com/en/discussions/managing-discussions-for-your-community/moderating-discussions#converting-an-issue-to-a-discussion
@@ -70,7 +70,7 @@ Veure [CONTRIBUTING.md][contributing]
 [os-phil-opp]: https://os.phil-opp.com
 [statsandr]: https://statsandr.com
 [techdebtburndown]: https://techdebtburndown.com
-[contributing]: https://github.com/giscus/giscus/blob/main/CONTRIBUTING.md
+[contributing]: https://github.com/automationxpert/giscus/blob/main/CONTRIBUTING.md
 
 <!-- end -->
 

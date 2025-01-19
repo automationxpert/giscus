@@ -57,7 +57,7 @@ export async function getStaticProps({ locale }: GetStaticPropsContext) {
     replies: [],
     replyCount: 0,
     upvoteCount: 0,
-    url: 'https://github.com/giscus/giscus',
+    url: 'https://github.com/automationxpert/giscus',
     viewerDidAuthor: false,
     viewerHasUpvoted: false,
     viewerCanUpvote: false,

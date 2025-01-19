@@ -89,15 +89,15 @@ localization! Follow these steps to add a new localization:
 8. [Create a PR][pr] with your localization updates.
 
 [self-hosting]: SELF-HOSTING.md
-[fork]: https://github.com/giscus/giscus/fork
-[pr]: https://github.com/giscus/giscus/compare
+[fork]: https://github.com/automationxpert/giscus/fork
+[pr]: https://github.com/automationxpert/giscus/compare
 [next.js]: https://github.com/vercel/next.js
 [themes-dir]: styles/themes
 [example]: styles/themes/custom_example.css
 [variables]: lib/variables.ts
 [preferred-color-scheme]: styles/themes/preferred_color_scheme.css
-[gsc-classes]: https://github.com/giscus/giscus/search?l=TSX&q=gsc
-[custom-theme-url]: https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-theme
+[gsc-classes]: https://github.com/automationxpert/giscus/search?l=TSX&q=gsc
+[custom-theme-url]: https://github.com/automationxpert/giscus/blob/main/ADVANCED-USAGE.md#data-theme
 [locales]: locales/
 [language-codes]: https://www.unicode.org/cldr/charts/46/supplemental/languages_and_scripts.html
 [plural-rules]: https://www.unicode.org/cldr/charts/46/supplemental/language_plural_rules.html

@@ -318,6 +318,6 @@ sendMessage({
 ```
 
 [giscus.json]: giscus.json
-[creating-new-themes]: https://github.com/giscus/giscus/blob/main/CONTRIBUTING.md#creating-new-themes
+[creating-new-themes]: https://github.com/automationxpert/giscus/blob/main/CONTRIBUTING.md#creating-new-themes
 [giscus.ts]: lib/types/giscus.ts
 [sha1-calculator]: https://xorbin.com/tools/sha1-hash-calculator

@@ -129,7 +129,7 @@
     while (existingContainer.firstChild) existingContainer.firstChild.remove();
     existingContainer.appendChild(iframeElement);
   }
-  const suggestion = `Please consider reporting this error at https://github.com/giscus/giscus/issues/new.`;
+  const suggestion = `Please consider reporting this error at https://github.com/automationxpert/giscus/issues/new.`;
 
   function signOut() {
     delete params.session;

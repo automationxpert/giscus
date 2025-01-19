@@ -232,7 +232,7 @@ encounter any problems, [create a new issue][new-issue].
 [app-doc]: https://docs.github.com/apps/building-integrations
 [create-app]: https://github.com/settings/apps/new
 [giscus]: https://giscus-new.vercel.app
-[token-validity-period]: https://github.com/giscus/giscus/blob/main/pages/api/oauth/authorized.ts#L6
+[token-validity-period]: https://github.com/automationxpert/giscus/blob/main/pages/api/oauth/authorized.ts#L6
 [supabase]: https://supabase.io
 [vercel]: https://vercel.com
 [env-example]: .env.example
@@ -240,6 +240,6 @@ encounter any problems, [create a new issue][new-issue].
 [services]: services
 [cors]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 [next-export]: https://nextjs.org/docs/advanced-features/static-html-export
-[configuration]: https://github.com/giscus/giscus/blob/main/components/Configuration.tsx#L320
-[discussion]: https://github.com/giscus/giscus/discussions/categories/q-a
-[new-issue]: https://github.com/giscus/giscus/issues/new
+[configuration]: https://github.com/automationxpert/giscus/blob/main/components/Configuration.tsx#L320
+[discussion]: https://github.com/automationxpert/giscus/discussions/categories/q-a
+[new-issue]: https://github.com/automationxpert/giscus/issues/new

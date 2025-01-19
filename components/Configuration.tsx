@@ -158,7 +158,7 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
           components={{
             a: (
               <a
-                href="https://github.com/giscus/giscus/blob/main/CONTRIBUTING.md#adding-localizations"
+                href="https://github.com/automationxpert/giscus/blob/main/CONTRIBUTING.md#adding-localizations"
                 target="_blank"
                 rel="noreferrer noopener nofollow"
               />
@@ -338,7 +338,7 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
             components={{
               a: (
                 <a
-                  href="https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict"
+                  href="https://github.com/automationxpert/giscus/blob/main/ADVANCED-USAGE.md#data-strict"
                   target="_blank"
                   rel="noreferrer noopener nofollow"
                 />
@@ -442,7 +442,7 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
             components={{
               a: (
                 <a
-                  href="https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage"
+                  href="https://github.com/automationxpert/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage"
                   target="_blank"
                   rel="noreferrer noopener nofollow"
                 />
@@ -503,7 +503,7 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
           components={{
             a: (
               <a
-                href="https://github.com/giscus/giscus/blob/main/CONTRIBUTING.md#creating-new-themes"
+                href="https://github.com/automationxpert/giscus/blob/main/CONTRIBUTING.md#creating-new-themes"
                 target="_blank"
                 rel="noreferrer noopener nofollow"
               />

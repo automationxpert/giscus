@@ -147,7 +147,7 @@ export async function getDiscussion(
   const searchIn = strict ? 'in:body' : 'in:title';
 
   // Force repo to lowercase to prevent GitHub's bug when using category in query.
-  // https://github.com/giscus/giscus/issues/118
+  // https://github.com/automationxpert/giscus/issues/118
   const repo = repoWithOwner.toLowerCase();
   const categoryQuery = category ? `category:${JSON.stringify(category)}` : '';
   const query = `repo:${repo} ${categoryQuery} ${searchIn} ${JSON.stringify(resolvedTerm)}`;
