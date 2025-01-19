@@ -20,7 +20,7 @@
 
 ในการแสดงความคิดเห็น ผู้เยี่ยมชมจะต้องอนุญาตให้ [แอป giscus][giscus-app] [โพสต์ในนามตนเอง][authorization] ผ่าน GitHub OAuth หรืออีกทางเลือกหนึ่ง ผู้เยี่ยมชมสามารถแสดงความคิดเห็นในการสนทนาบน GitHub ได้โดยตรง คุณสามารถจัดการความคิดเห็นได้บน GitHub
 
-[giscus]: https://giscus.app/th
+[giscus]: https://giscus-new.vercel.app/th
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

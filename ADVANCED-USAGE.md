@@ -134,10 +134,10 @@ for the `data-theme` attribute. The URL will be used by giscus to construct a
 For example, given the following `<script>` tag:
 
 ```html
-<script src="https://giscus.app/client.js"
+<script src="https://giscus-new.vercel.app/client.js"
         data-repo="giscus/giscus"
         ...
-        data-theme="https://giscus.app/themes/custom_example.css"
+        data-theme="https://giscus-new.vercel.app/themes/custom_example.css"
         ...>
 </script>
 ```
@@ -146,7 +146,7 @@ then giscus will add the following element:
 
 
 ```html
-<link id="giscus-theme" rel="stylesheet" crossorigin="anonymous" href="https://giscus.app/themes/custom_example.css">
+<link id="giscus-theme" rel="stylesheet" crossorigin="anonymous" href="https://giscus-new.vercel.app/themes/custom_example.css">
 ```
 
 Please note that loading an external CSS file **may be unsafe**. Make sure that
@@ -311,7 +311,7 @@ type `ISetConfigMessage`:
 ```ts
 sendMessage({
   setConfig: {
-    theme: 'https://giscus.app/themes/custom_example.css',
+    theme: 'https://giscus-new.vercel.app/themes/custom_example.css',
     reactionsEnabled: false,
   }
 });

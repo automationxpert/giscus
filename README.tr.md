@@ -20,7 +20,7 @@ Giscus yüklendiğinde, [GitHub Discussions arama API'ı][search-api] kullanıla
 
 Yorum yapmak için, ziyaretçiler [giscus uygulaması][giscus-app]nı [kendi adlarına yazmak][authorization] için GitHub OAuth üzerinden yetkilendirmeli. Alternatif olarak, ziyaretçiler direkt olarak GitHub Discussions üzerinden yorum yapabilirler. Yorumları GitHub üzerinden yönetebilirsiniz.
 
-[giscus]: https://giscus.app/tr
+[giscus]: https://giscus-new.vercel.app/tr
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

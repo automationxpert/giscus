@@ -41,7 +41,7 @@ the web app. You can use this guide as a reference.
   ![image](https://user-images.githubusercontent.com/6379424/120402124-9f82d280-c36b-11eb-940c-41606361b0d6.png)
 
   - Use `https://[YOUR-DOMAIN-HERE]/api/oauth/authorized` as the authorization
-    callback URL, e.g. `https://giscus.app/api/oauth/authorized`.
+    callback URL, e.g. `https://giscus-new.vercel.app/api/oauth/authorized`.
   - **Do not** check "**Expire user authorization tokens**", as giscus
     currently does not support it.
 

@@ -23,7 +23,7 @@
 Чтобы добавить новый комментарий пользователи должны авторизовать [giscus app][giscus-app] для [опубликования комментариев от их имени][authorization] с помощью GitHub OAuth.
 Кроме того, посетители могут оставлять комментарии напрямую в GitHub Discussion. Вы можете модерировать эти комментарии через GitHub.
 
-[giscus]: https://giscus.app/ru
+[giscus]: https://giscus-new.vercel.app/ru
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

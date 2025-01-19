@@ -20,7 +20,7 @@
 
 للتعليق، يجب على الزوار تفويض [تطبيق غيسكوس][giscus-app] [للنشر نيابة عنهم][authorization] باستخدام تدفق OAuth الخاص بـ GitHub. أو بدلاً من ذلك، يمكن للزوار التعليق مباشرة على مناقشة GitHub. يمكنك الإشراف على التعليقات عبر GitHub.
 
-[giscus]: https://giscus.app/ar
+[giscus]: https://giscus-new.vercel.app/ar
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

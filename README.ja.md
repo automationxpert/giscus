@@ -20,7 +20,7 @@ giscus読み込み時に[GitHub Discussions search API][search-api]を利用し�
 
 サイト訪問者のコメントは[giscus app][giscus-app]によって[訪問者に代わって投稿][authorization]されるために、GitHub OAuth flowを利用した連携設定が行われる必要があります。あるいは、サイト訪問者はGitHub Discussionに直接コメントすることも可能です。コメントはGitHub上で管理することができます。
 
-[giscus]: https://giscus.app/ja
+[giscus]: https://giscus-new.vercel.app/ja
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

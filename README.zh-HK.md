@@ -20,7 +20,7 @@ giscus 載入時，會使用 [GitHub Discussions 搜尋 API][search-api] 根據�
 
 如要留言，訪客必須按照 GitHub OAuth 流程授權 [giscus app][giscus-app] [代表他發文][authorization]。或者訪客也可以直接在 GitHub Discussion 裡面留言。你可以在 GitHub 上管理留言。
 
-[giscus]: https://giscus.app/zh-HK
+[giscus]: https://giscus-new.vercel.app/zh-HK
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

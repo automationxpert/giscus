@@ -20,7 +20,7 @@ Ketika giscus dimuat, [API pencarian GitHub Discussions][search-api] digunakan u
 
 Untuk berkomentar, pengunjung harus mengizinkan [aplikasi giscus][giscus-app] untuk [berkomentar atas nama mereka][authorization] menggunakan alur GitHub OAuth. Atau, pengunjung dapat meninggalkan komentar pada diskusinya secara langsung di GitHub. Anda dapat memoderasi komentarnya di GitHub.
 
-[giscus]: https://giscus.app/id
+[giscus]: https://giscus-new.vercel.app/id
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

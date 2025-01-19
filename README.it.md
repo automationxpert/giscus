@@ -20,7 +20,7 @@ Quando giscus viene caricato, l'[API di ricerca di discussioni di GitHub][search
 
 Per commentare, i visitatori devono autorizzare l'[app giscus][giscus-app] a [pubblicare per loro conto][authorization] utilizzando l'autorizzazione OAuth di GitHub. In alternativa, i visitatori possono commentare direttamente la discussione su GitHub. Puoi moderare i commenti su GitHub.
 
-[giscus]: https://giscus.app/it
+[giscus]: https://giscus-new.vercel.app/it
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

@@ -20,7 +20,7 @@ Cînd giscus se încarcă, [API-ul de căutare GitHub Discussions][search-api] e
 
 Pentru a comenta vizitatorii trebuie să autorizeze [aplicația giscus][giscus-app] ca să [publice în numele lor][authorization] folosind sistemul GitHub OAuth. Alternativ, vizitatorii pot comenta direct în GitHub Discussion. Comentariile pot fi moderate la GitHub.
 
-[giscus]: https://giscus.app/ro
+[giscus]: https://giscus-new.vercel.app/ro
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

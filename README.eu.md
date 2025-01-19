@@ -26,7 +26,7 @@ Iradokizunak idazteko, bisitariek [giscus aplikazioa][giscus-app] beraien izenea
 Aukeran, bisitariek GitHub Eztabaidan bertan publikatu dezakete.
 Iradokizuznak GitHub plataforman moderatu daitezke.
 
-[giscus]: https://giscus.app/es
+[giscus]: https://giscus-new.vercel.app/es
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus

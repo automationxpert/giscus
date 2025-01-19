@@ -20,7 +20,7 @@ Quan es carrega giscus, s'utilitza [l'API de cerca de discussions de GitHub][sea
 
 Per deixar un comentari, els visitants han d'autoritzar [l'aplicació de giscus][giscus-app] per [publicar en el seu nom][authorization] utilitzant el flux de GitHub OAuth. Alternativament, els visitants poden comentar directament a la Discussió de GitHub. Pots moderar els comentaris a GitHub.
 
-[giscus]: https://giscus.app/ca
+[giscus]: https://giscus-new.vercel.app/ca
 [discussions]: https://docs.github.com/en/discussions
 [utterances]: https://github.com/utterance/utterances
 [repo]: https://github.com/giscus/giscus
