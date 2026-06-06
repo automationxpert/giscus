@@ -158,7 +158,7 @@ export default function Home({
             data-repo-id={env.demo_repo_id}
             data-category-id={env.demo_category_id}
             data-mapping="specific"
-            data-term="Welcome to giscus!"
+            data-term="Feedback"
             data-theme="preferred_color_scheme"
             data-reactions-enabled="1"
             data-emit-metadata="0"
@@ -167,12 +167,12 @@ export default function Home({
             data-strict="1"
           />
         ) : null}
-        <a
+        {/* <a
           className="block w-max mx-auto mb-6"
           href="https://vercel.com/?utm_source=giscus&utm_campaign=oss"
         >
           <img src="/powered-by-vercel.svg" alt="Powered by Vercel" />
-        </a>
+        </a> */}
       </div>
     </main>
   );
