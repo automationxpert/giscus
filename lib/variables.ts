@@ -13,6 +13,8 @@ export const env = {
   supabase_url: process.env.SUPABASE_URL,
   supabase_table: process.env.SUPABASE_INSTALLATION_ACCESS_TOKENS_TABLE,
   supabase_key: process.env.SUPABASE_KEY,
+  valkey_prefix: process.env.VALKEY_PREFIX,
+  valkey_url: process.env.VALKEY_URL,
   revalidate_first_page: process.env.NEXT_PUBLIC_REVALIDATE_FIRST_PAGE !== 'false',
   origins: JSON.parse(process.env.ORIGINS || '[]') as string[],
   origins_regex: JSON.parse(process.env.ORIGINS_REGEX || '[]') as string[],

@@ -37,8 +37,8 @@ export async function getAppAccessToken(repoWithOwner: string): Promise<string> 
         'https://docs.github.com/en/rest/reference/apps#get-a-repository-installation-for-the-authenticated-app',
     };
 
-  const cachedToken = await TokenCache.get(installationId);
-  if (cachedToken) return cachedToken;
+  const { token: cached, created_at } = (await TokenCache.get(installationId)) || {};
+  if (cached) return cached;
 
   const response = await fetch(GITHUB_ACCESS_TOKEN_URL(installationId), {
     method: 'POST',
@@ -55,6 +55,7 @@ export async function getAppAccessToken(repoWithOwner: string): Promise<string> 
     installation_id: installationId,
     token,
     expires_at,
+    ...(created_at ? {} : { created_at: new Date().toISOString() }),
   });
 
   return token;

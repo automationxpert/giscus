@@ -13,7 +13,7 @@ function getJWT() {
 }
 
 export async function getCachedAccessToken(installationId: number) {
-  if (!env.postgrest_url || !env.postgrest_secret) return '';
+  if (!env.postgrest_url || !env.postgrest_secret) return null;
 
   const params = new URLSearchParams({
     select: '*',
@@ -29,22 +29,15 @@ export async function getCachedAccessToken(installationId: number) {
     },
   });
 
-  if (!response.ok) return '';
+  if (!response.ok) return null;
 
-  const { token, expires_at }: InstallationAccessToken = await response.json();
-
-  const expiresAt = new Date(expires_at).getTime();
-  const now = new Date().getTime();
-  const intolerance = 1000 * 60 * 5; // 5 minutes
-
-  if (expiresAt - now < intolerance) return '';
-
-  return token;
+  return (await response.json()) as InstallationAccessToken;
 }
 
 export async function setCachedAccessToken({
   installation_id,
   token,
+  created_at,
   expires_at,
 }: InstallationAccessToken) {
   if (!env.postgrest_url || !env.postgrest_secret) return false;
@@ -60,6 +53,7 @@ export async function setCachedAccessToken({
     expires_at,
     updated_at: new Date().toISOString(),
   };
+  if (created_at) body.created_at = created_at;
 
   const response = await fetch(url, {
     method: 'PUT',

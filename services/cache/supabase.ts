@@ -7,7 +7,7 @@ const SUPABASE_INSTALLATION_ACCESS_TOKENS_TABLE =
 export const SUPABASE_INSTALLATION_ACCESS_TOKENS_URL = `${env.supabase_url}/rest/v1/${SUPABASE_INSTALLATION_ACCESS_TOKENS_TABLE}`;
 
 export async function getCachedAccessToken(installationId: number) {
-  if (!env.supabase_key) return '';
+  if (!env.supabase_key) return null;
 
   const params = new URLSearchParams({
     select: '*',
@@ -24,23 +24,16 @@ export async function getCachedAccessToken(installationId: number) {
     },
   });
 
-  if (!response.ok) return '';
+  if (!response.ok) return null;
 
-  const { token, expires_at }: InstallationAccessToken = await response.json();
-
-  const expiresAt = new Date(expires_at).getTime();
-  const now = new Date().getTime();
-  const intolerance = 1000 * 60 * 5; // 5 minutes
-
-  if (expiresAt - now < intolerance) return '';
-
-  return token;
+  return (await response.json()) as InstallationAccessToken;
 }
 
 export async function setCachedAccessToken({
   installation_id,
   token,
   expires_at,
+  created_at,
 }: InstallationAccessToken) {
   if (!env.supabase_key) return false;
 
@@ -55,6 +48,7 @@ export async function setCachedAccessToken({
     expires_at,
     updated_at: new Date().toISOString(),
   };
+  if (created_at) body.created_at = created_at;
 
   const response = await fetch(url, {
     method: 'PUT',

@@ -7,6 +7,19 @@ writing, this is a rolling-release project without any meaningful versioning
 whatsoever. Tags/releases may be created for the sole purpose of documenting
 major updates to the project.
 
+## 2026-05-26
+
+### Added
+
+- Add Valkey cache service
+  ([#1711](https://github.com/giscus/giscus/pull/1711)).
+
+## 2025-04-21
+
+### Fixed
+
+- Ensure the correct language is used after signing out ([#1633](https://github.com/giscus/giscus/pull/1633)).
+
 ## 2024-12-31
 
 ### Added
