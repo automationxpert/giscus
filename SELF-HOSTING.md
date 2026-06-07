@@ -222,7 +222,7 @@ functions.
 
 - You can use the main page of the website to generate the client script
   configurations (e.g. `data-repo-id`, `data-category-id`) just like on
-  [giscus.app][giscus].
+  [https://giscus-new.vercel.app][giscus].
 - Include the script tag to your webpage. Make sure you use the client script
   that is hosted from your deployment.
 
